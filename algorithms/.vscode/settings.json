@@ -1,0 +1,14 @@
+{
+  "typescript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "typescript.reportStyleChecksAsWarnings": false,
+  "typescript.showUnused": true
+}

@@ -1,0 +1,15 @@
+export default function same(arr1: number[], arr2: number[]): boolean {
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
+  for (let i = 0; i < arr1.length; i++) {
+    const correctIndex = arr2.indexOf(arr1[i] ** 2);
+    if (correctIndex === -1) {
+      return false;
+    }
+    arr2.splice(correctIndex, 1);
+  }
+  return true;
+}
+
+same([1, 2, 3], [1, 4, 9]); //return true

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable"],
+
+    /* Modules - Using bundler resolution instead of NodeNext */
+    "module": "preserve",
+    "moduleResolution": "bundler",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  }
+}
